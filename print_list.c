@@ -21,9 +21,10 @@ void print_list(const listint_t *list)
     }
     printf("\n");
 }
-Our files print_array.c and print_list.c (containing the print_array and print_list functions) will be compiled with your functions during the correction.
+/**Our files print_array.c and print_list.c (containing the print_array and print_list functions) will be compiled with your functions during the correction.
 Please declare the prototype of the functions print_array and print_list in your sort.h header file
 Please use the following data structure for doubly linked list:
+*/
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -31,9 +32,9 @@ Please use the following data structure for doubly linked list:
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
-typedef struct listint_s
+/*typedef struct listint_s
 {
     const int n;
     struct listint_s *prev;
     struct listint_s *next;
-} listint_t;
+} listint_t;*/
